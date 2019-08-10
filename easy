@@ -1,1 +1,21 @@
 Leetcode Solutions
+
+----Defangled IP address-----
+
+class Solution(object):
+    def defangIPaddr(self, address):
+        """
+        :type address: str
+        :rtype: str
+        """
+        '''location = []
+        for i in range(len(address)):
+            if address[i] == '.':
+                location.append(i)'''
+        defanged = ""
+        for i in address:
+            if i == ".":
+                defanged = defanged + "[.]"
+            else:
+                defanged = defanged + i
+        return defanged
