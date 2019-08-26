@@ -41,3 +41,5 @@ class Solution(object):
                 counter += dic[i]
         return counter
         
+
+------
