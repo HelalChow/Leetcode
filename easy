@@ -20,7 +20,7 @@ class Solution(object):
                 defanged = defanged + i
         return defanged
 
-----Jewels and Stones----
+----Jewels and Stones----d
 
 class Solution(object):
     def numJewelsInStones(self, J, S):
